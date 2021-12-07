@@ -2,22 +2,62 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color:#ffffff00;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: yellow;
+
 }
 
 #foreground{
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../Assets/images/IMG_0508.JPG");
     background-size: cover;
     background-position: center;
 }
-
+.header{
+    padding: 10px;
+    background-color: rgb(86, 188, 235);
+}
+.header h1{
+    display: inline-block;
+    font-size: 50px;
+}
+#sidebar h3{
+    font-size: 30px;
+}
+ul {
+    background-color: rgb(114, 230, 133);
+}
+nav li {
+    padding: 1px;
+    margin-right: 10px;
+    display: none;
+    font-size:20px;
+    color:rgb(159, 238, 13);
+    display: inline-block;
+    text-decoration: underline;
+    
+}
 .social-links {
     color:aqua;
     display: inline;
     float: right;
+}
+h1{
+    color: rgb(216, 235, 49);
+}
+
+#sidebar {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+#sidebar  div img{
+    width: 100px;
+    height: 100px;
 }
