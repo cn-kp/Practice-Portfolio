@@ -14,10 +14,16 @@
     background-size: cover;
     background-position: center;
 }
+#About-Me{
+    margin-bottom: 85px;
+    padding-left: 40px;
+}
+
 .header{
     padding: 10px;
     background-color: rgb(86, 188, 235);
 }
+
 .header h1{
     display: inline-block;
     font-size: 50px;
@@ -43,21 +49,78 @@ nav li {
     display: inline;
     float: right;
 }
+
 h1{
     color: rgb(216, 235, 49);
 }
 
 #sidebar {
     margin-left: 20px;
-    padding: 20px;
+    padding: 5px;
     clear: both;
     float: left;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    border-right: 5px solid rgb(46, 70, 85);
 }
-#sidebar  div img{
-    width: 100px;
-    height: 100px;
+#sidebar div img{
+    width: 50%;
+    min-height: 50px;
+    margin-bottom: 40px;
+}
+
+.projects {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+}
+
+#My-Work{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+    padding-left: 40px
+}
+.main-project img{
+    width: 100%;
+    height: 550px;
+    margin-right: 100px;
+}
+.projects img{
+    width: 100%;
+    max-height: 100px;
+}
+
+/* To accompany different window users */
+@media screen and (max-width:992px) {
+    #sidebar h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #sidebar h3 {
+        font-size: 15px;
+        flex-direction: column;
+    }
+}
+
+.phone:hover::after{
+    content:" : 04xxxxxxxx";
+    color:rgb(216, 235, 49)
+}
+.email:hover::after{
+    content:" : xxx@xxxxx.com";
+    color:rgb(86, 188, 235)
+}
+
+.Github:hover::after{
+    content:" : github.com/xxxx";
+    color:seagreen
+}
+.linkedin:hover::after{
+    content: " : linkedin.com/xxxx";
+    color:orange
 }
