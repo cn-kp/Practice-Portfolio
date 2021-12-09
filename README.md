@@ -18,5 +18,5 @@ The Webpage will be done when the below is completed to a satisfactory level
 7) Finally, the webpage should be organised, ensuring the sidebar matches up with the main content, is somewhat appealing to look at and is layed out accordingly
 
 ## Deploy 
-This webpage can be accessed at " "
+This webpage can be accessed at "https://cn-kp.github.io/homework-week2-MyPortfolio/"
 A preview of the page is attached below;

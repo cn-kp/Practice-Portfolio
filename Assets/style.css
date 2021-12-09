@@ -16,7 +16,8 @@
 }
 #About-Me{
     margin-bottom: 85px;
-    padding-left: 40px;
+    padding-left: 200px;
+    text-align: center;
 }
 
 .header{
@@ -69,6 +70,9 @@ h1{
     min-height: 50px;
     margin-bottom: 40px;
 }
+.seperate{
+    margin-top: 450px;
+}
 
 .projects {
     flex: 1 0 0;
@@ -80,12 +84,27 @@ h1{
 #My-Work{
     display:flex;
     flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 5px;
-    padding-left: 40px
+    padding-left: 40px;
+    align-items:flex-end;
+    min-height: 200px;
+    
+}
+.img-width img{
+    max-width: 400px;
+}
+
+#My-Work img:hover{
+    opacity: .65;
+    background-color: rgb(222, 224, 54);
+    border: solid yellow;
+
 }
 .main-project img{
     width: 100%;
-    height: 550px;
+    min-height: 250px;
     margin-right: 100px;
 }
 .projects img{
@@ -98,12 +117,19 @@ h1{
     #sidebar h3 {
         font-size: 20px;
     }
+    #sidebar{
+        height: 1500px;
+
+    }
 }
 
 @media screen and (max-width:768px){
     #sidebar h3 {
         font-size: 15px;
         flex-direction: column;
+    }
+    #sidebar{
+        height: 1200px;
     }
 }
 
@@ -123,4 +149,19 @@ h1{
 .linkedin:hover::after{
     content: " : linkedin.com/xxxx";
     color:orange
+}
+
+.social-links{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer{
+    padding:20px;
+    text-align: center;
+    text-shadow: seagreen;
+    background: aquamarine;
+    margin-top: 120px;
+    font-size: 175%;
 }
