@@ -20,3 +20,5 @@ The Webpage will be done when the below is completed to a satisfactory level
 ## Deploy 
 This webpage can be accessed at "https://cn-kp.github.io/homework-week2-MyPortfolio/"
 A preview of the page is attached below;
+![first half of page](./Assets/images/page1.PNG)
+![second half of page](./Assets/images/page2.PNG)
